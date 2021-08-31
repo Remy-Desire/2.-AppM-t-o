@@ -1,5 +1,8 @@
+import tabJoursEnOrdre from "./Utilitaire/gestionTemps.js";
+
 const CLEFAPI = 'e09109e10f1a8bd2e83ccf7ac1982d33';
 let resultatsAPI;
+
 const temps = document.querySelector('.temps');
 const temperature = document.querySelector('.temperature');
 const localisation = document.querySelector('.localisation');
